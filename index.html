@@ -7,3 +7,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
+<body>
+    <div id="contenido-web">
+        <header>
+            <h2> <a href="#"><i class="menu"></i> ElectroCorp.Web</a></h2>
+            <nav>
+                <li> <a href="#hero" style="color: #00d2ff;" data-i18n="nav_home">Home</a></li>
+                <li> <a href="#description" style="color: #00d2ff;" data-i18n="nav_desc">Description</a></li>
+                <li> <a href="#goals" style="color: #00d2ff;" data-i18n="nav_goals">Goals</a></li>
+                <li> <a href="#service" style="color: #00d2ff;" data-i18n="nav_plans">Pricing</a></li>
+                <li> <a href="#reviews" style="color: #00d2ff;" data-i18n="nav_reviews">Reviews</a></li>
+                <li> <a href="#device" style="color: #00d2ff;" data-i18n="nav_smart">Smart Plugs</a></li>
+                <li> <a href="#contact" style="color: #00d2ff;" data-i18n="nav_support">Support</a></li>
+                <li> <a href="#" onclick="toggleLanguage()" style="color: #ffffff;"><i class="fa fa-globe"></i> <span id="lang-text">ES</span></a></li>
+            </nav>
+        </header>
+
+        <section id="hero" class="hero">
+            <div class="background-image" style="background-image: url('img/FondoPantalla2.png');"></div>
+            <h1 data-i18n="hero_title"> Take control of your home's electricity consumption </h1>
+            <h3 data-i18n="hero_subtitle"> The ultimate fusion between IoT Sensors and Consumer Intelligence </h3>
+            
+            <div class="search-container">
+                <input type="text" placeholder="Search keyword or question" id="searchInput">
+                <button type="button" id="btn-buscar"><i class="fa fa-search"></i></button> 
+            </div>
+            <hr>
+        </section>
