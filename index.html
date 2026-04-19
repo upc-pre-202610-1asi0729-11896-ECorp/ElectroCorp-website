@@ -115,3 +115,37 @@
             <hr>
             <br></br>
         </section>
+
+        <section id="contact" class="contact">
+            <h3 class="title" data-i18n="contact_title">Join the Electrical Revolution</h3>
+            <p data-i18n="contact_subtitle">The future is efficient. Subscribe to receive saving tips, app updates, and exclusive offers on our upcoming smart plug pack.</p>
+            <form id="form-suscripcion">
+                <input type="email" id="email-boletin" placeholder="Your best email here" required>
+                <button type="submit" class="btn" data-i18n="btn_send">Submit</button>
+            </form>
+            <p id="mensaje-suscripcion" style="display: none; color: var(--main-blue); margin-top: 10px;"></p>
+            <hr>
+            <br></br>
+        </section>
+        
+        <footer>
+            <ul>
+                <li><a href="#"><i class="fa fa-github-square"></i></a></li> 
+                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li> 
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <p>Copyright(C) 2026 <a href="#" target="_blank">ElectroCorp.Web</a></p>
+            <p data-i18n="footer_rights">All rights reserved.</p>
+            <button id="btn-audio" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; padding: 15px 18px; border-radius: 50%; background: var(--main-blue); border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                <i class="fa fa-volume-off" id="icono-audio" style="font-size: 20px; color: #000;"></i>
+            </button>
+        </footer>
+    </div>
+
+    <audio id="musical-background" loop>
+        <source src="audio/ElectroCorp.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
