@@ -1,10 +1,33 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | ElectroCorp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth.css">
 </head>
-<body>
-
+<body class="dashboard-page">
+<aside class="dash-sidebar" aria-label="Navegación del panel">
+    <div class="dash-logo">
+        <img src="img/logo.png" alt="UPC" width="160" height="80">
+    </div>
+    <nav class="dash-nav">
+        <a href="#"><i class="fa fa-user"></i> Mi perfil</a>
+        <a href="#"><i class="fa fa-cog"></i> Ajustes</a>
+        <a href="#" class="active"><i class="fa fa-th-large"></i> Dashboard</a>
+        <a href="#"><i class="fa fa-credit-card"></i> Planes</a>
+        <a href="index.html"><i class="fa fa-home"></i> Landing page</a>
+    </nav>
+    <div class="dash-logout">
+        <a href="login.html"><i class="fa fa-sign-out"></i> Cerrar sesión</a>
+    </div>
+</aside>
+<main class="dash-main">
+    <div class="logo-large dash-hero-mascot">
+        <img src="img/superlogo.png" alt="ElectroCorp" width="400" height="400">
+    </div>
+</main>
 </body>
 </html>
